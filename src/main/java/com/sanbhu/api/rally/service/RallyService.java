@@ -8,7 +8,7 @@ import com.sanbhu.api.rally.bo.RallySubTaskDetailResult;
 
 public interface RallyService {
 	public static final String RALLY_URL = "https://rally1.rallydev.com";
-	public static final String RALLY_API_KEY = "_CP9nu1mwTnCRRnD26xTxLZJohtsZkgxs6rEJRyMnEU";
+	public static final String RALLY_API_KEY = "_CP9nuXXXXXXxTxLZXXXXXXXXJohCCCCCCCEU";
 
 	List<RallyIterationResult> getAllIteration();
 
