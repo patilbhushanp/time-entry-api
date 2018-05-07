@@ -28,18 +28,18 @@ import com.sanbhu.api.utility.ApplicationUtility;
 @RestController
 public class IntegrationAPIController extends BaseRestController {
 
-	private String clicktimeUsername = "bhushanp@xpanxion.co.in";
-	private String clicktimePassword = "Xpanxion2013";
+	private String clicktimeUsername = "XXXXXXXXX@XXXXXXXX.XXX";
+	private String clicktimePassword = "XXXXXXXXX";
 	private String clicktimeHeaderParameters = "accept-encoding: gzip, deflate;"
 			+ "accept-language: en-US,en, q=0.8;\r\n"
 			+ "user-agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36;\r\n"
 			+ "accept: application/json;";
 	private String clicktimeStartDateTimeEntry = "2018/04/23";
 
-	private String rallyProjectReferenceURL = "/project/13550831421";
-	private String rallyOwnerReferenceURL = "/user/116359175628";
-	private String rallyIterationReferenceURL = "/iteration/214670110876";
-	final String rallyWorkProductRefernceURL = "/hierarchicalrequirement/217357884236";
+	private String rallyProjectReferenceURL = "/project/1355XXXX21";
+	private String rallyOwnerReferenceURL = "/user/1163XXXXXX28";
+	private String rallyIterationReferenceURL = "/iteration/214XXXXXXX876";
+	final String rallyWorkProductRefernceURL = "/hierarchicalrequirement/217XXXXXX36";
 
 	@Autowired
 	ClicktimePortalService clicktimePortalService;
